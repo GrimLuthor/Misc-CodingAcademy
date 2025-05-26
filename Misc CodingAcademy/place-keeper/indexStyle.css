@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    background-color: rgb(255, 226, 226);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mycard {
+    background: rgb(137,136,139);
+    background: linear-gradient(180deg, rgba(137,136,139,1) 0%, rgba(156,85,96,1) 50%, rgba(255,0,48,1) 100%);
+    width: 50vh;
+    height: 35vh;
+    border-radius: 15px;
+    margin: 1vh;
+}
+
+.top {
+    margin-top: 10vh;
+}
+
+.to-map {
+    border-radius: 15px;
+    border: 3px inset #A42929;
+    padding: 2%;
+    width: 50%;
+    height: 100%;
+    background: rgb(137,136,139);
+    background: linear-gradient(333deg, rgba(137,136,139,1) 0%, rgba(156,85,96,1) 50%, rgba(255,0,48,1) 100%);
+}
+
+.to-user-settings {
+    float: right;
+    border-radius: 15px;
+    border: 3px inset #A42929;
+    padding: 2%;
+    width: 50%;
+    height: 100%;
+    background: rgb(137,136,139);
+    background: linear-gradient(333deg, rgba(137,136,139,1) 0%, rgba(156,85,96,1) 50%, rgba(255,0,48,1) 100%);
+}

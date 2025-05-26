@@ -1,0 +1,74 @@
+html {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    color: #444;
+}
+input {
+    cursor: pointer;
+}
+
+
+.toy-table {
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px 0px black;
+    border-collapse: collapse;
+}
+
+.toy-table thead {
+    box-shadow: 0 1px 6px 0px black
+}
+
+.toy-table tr:not(:first-child) {
+    box-shadow: 0px -1px 5px 0px #00000059;
+}
+
+.toy-table tr:nth-child(odd) td {
+/* .toy-table tr:nth-child(2n+1) td { */
+    background-color:#a6e4ff2a;
+}
+
+.toy-table th {
+    cursor: pointer;
+    transition: background 0.5s;
+    color: #020084;
+    text-align: start;
+    padding: 5px;  
+}
+
+.toy-table th:hover {
+    background-color: #dbecff6e;
+}
+.toy-table th:not(:last-child) {
+    box-shadow: 1px 0px 1px -1px black;
+}
+
+.toy-table td {
+    height: 30px;
+    padding: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.links a {
+    color:#0075ff;
+    text-decoration: overline;
+}
+
+.csv-icon {
+    font-size: 45px;
+    color: #0075ff;
+    margin: 10px;
+}
+
+.success {
+    color: green
+}
+.danger {
+    color: red
+}
